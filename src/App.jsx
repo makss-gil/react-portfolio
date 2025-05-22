@@ -1,10 +1,18 @@
-
+import { Header, Footer, Home, Aboutme, Nav} from "./components/index"
 
 function App() {
 
   return (
     <>
-      <h1>React Portfolio</h1>
+    <Header />
+        <main>
+          <Home />
+          <div className="container">
+            <h1>React Portfolijo</h1>
+          </div>
+          <Aboutme />
+        </main>
+        <Footer />
     </>
   )
 }
