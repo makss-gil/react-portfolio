@@ -1,4 +1,4 @@
-import { Header, Footer, Home, Aboutme, Nav} from "./components/index"
+import { Header, Footer, Home, Aboutme, Nav, SkillsInfo, Services, Portfolio} from "./components/index"
 
 function App() {
 
@@ -6,11 +6,12 @@ function App() {
     <>
     <Header />
         <main>
+          <Nav />
           <Home />
-          <div className="container">
-            <h1>React Portfolijo</h1>
-          </div>
           <Aboutme />
+          <SkillsInfo />
+          <Services />
+          <Portfolio />
         </main>
         <Footer />
     </>
