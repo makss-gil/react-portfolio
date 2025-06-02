@@ -199,3 +199,9 @@ main{
 .them-btn.sun .fa-sun{
   display: block;
 }
+
+@media (max-width:450px){
+  .inner-title{
+      font-size: 48px;
+  }
+}

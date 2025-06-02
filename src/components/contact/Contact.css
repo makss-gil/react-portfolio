@@ -1,0 +1,164 @@
+/* ===== CONTACT ME section ===== */
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+    padding-bottom: 60px;
+}
+
+.contact-left {
+    max-width: 418px;
+    width: 100%;
+}
+
+.contact-list li {
+    margin-bottom: 40px;
+
+}
+
+.contact-left h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.contact-list h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.contact-list h3 svg {
+    color: var(--second-color);
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-list span {
+    color: var(--third-color);
+    margin-left: 10px;
+
+}
+
+.contact-list a {
+    color: var(--third-color);
+
+}
+
+.contact-right {
+    max-width: 536px;
+    width: 100%;
+
+}
+
+.contact-right p {
+    font-size: 27px;
+    margin-bottom: 30px;
+    color: var(--third-color);
+}
+
+.contact-right p span {
+    display: block;
+    font-weight: 700;
+    color: var(--first-color);
+
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 2px solid transparent;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px 40px 40px 20px;
+    border-radius: 5px;
+    color: var(--first-color);
+    background: var(--bg-transparent-color-02);
+    font-size: var(--normal-font-size);
+    transition: .3s linear;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form input:active,
+.contact-form textarea:active {
+    border: 2px solid #614fd0;
+}
+
+.contact-form textarea {
+    width: 100%;
+    resize: none;
+}
+
+.first-row input {
+    width: 100%;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-row input {
+    width: 48%;
+}
+
+
+.inner-info-linkk {
+    display: inline-flex;
+    /* дозволяє елементу поводитись як рядковий і флекс-контейнер */
+    align-items: center;
+    gap: 10px;
+    /* або 16px, або 20px — вибирай на око */
+
+    background: var(--second-color);
+    color: #fff;
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    margin-top: 25px;
+    padding: 16px 30px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    white-space: nowrap;
+    /* головне: не переносити текст */
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+/* ===== end CONTACT ME section ===== */
+
+
+@media (max-width:980px) {
+    .contact-wrapper {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:768px) {
+
+    .contact-right p span {
+        display: inline;
+    }
+
+    .second-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-row input {
+        width: 100%;
+    }
+}
+
+@media (max-width:450px) {
+    .contact-card h2 {
+        font-size: 35px;
+    }
+
+    .contact-right p {
+        font-size: 20px;
+    }
+}

@@ -7,6 +7,10 @@ import portfolio3 from "./portfolio-3.jpg"
 import portfolio4 from "./portfolio-4.jpg"
 import portfolio5 from "./portfolio-5.jpg"
 import portfolio6 from "./portfolio-6.jpg"
+import client1 from "./client1.jpg"
+import client2 from "./client2.jpg"
+import client3 from "./client3.jpg"
+
 
 
 export{
@@ -19,4 +23,7 @@ export{
     portfolio4,
     portfolio5,
     portfolio6,
+    client1,
+    client2,
+    client3
 }

@@ -2,7 +2,7 @@ import { Link } from "react-scroll"
 import "./Nav.css"
 
 
-const Nav = ({isMenuOpen}) => {
+const Nav = ({isMenuOpen, handleMenuClick}) => {
     const items = ["home", "about", "skills", "services", "portfolio", "clients", "contact"]
   return (
         <nav className={isMenuOpen ? "nav active" : "nav"}>
@@ -12,6 +12,7 @@ const Nav = ({isMenuOpen}) => {
                         to={item} 
                         key={index}
                         className="nav-link"
+                        onClick={handleMenuClick}
                         >{item}</Link>
                     ))}
             </div>
