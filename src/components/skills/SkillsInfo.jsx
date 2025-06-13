@@ -1,5 +1,5 @@
 import { motion } from "motion/react"
-import SectionTitle from "../sectionTitle/sectionTitle"
+import SectionTitle from "../sectionTitle/SectionTitle"
 import Awards from "./Awards"
 import Education from "./Education"
 import Skills from "./Skills"
