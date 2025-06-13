@@ -11,7 +11,7 @@ const skills = [
     },
     { 
         id: 3,
-        skill: "JavaScript", 
+        skill: "JS", 
         level: "60%"
     },
     { 

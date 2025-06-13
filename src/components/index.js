@@ -9,6 +9,10 @@ export {default as Portfolio} from "./portfolio/Portfolio"
 export {default as GetInTouch} from "./getInTouch/GetInTouch"
 export {default as OurClients} from "./ourClients/OurClients"
 export {default as Contact} from "./contact/Contact"
+export {default as ScrollToTop} from "./scrollToTop/ScrollToTop"
+export {default as ThemeToggle} from "./themeToggle/ThemeToggle"
+
+
 
 
 

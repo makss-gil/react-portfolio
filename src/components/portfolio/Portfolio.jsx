@@ -9,9 +9,9 @@ const Portfolio = () => {
             <div className="container flex-center">
                 <SectionTitle title="Portfolio" subtitle="Portfolio"/>
                 <div className="portfolio-wrapper">
-                {portfolioData.map(item => {
+                {portfolioData.map((item,index) => {
                     return (
-                        <PotfolioItem key={item.id} item={item}/>
+                        <PotfolioItem key={item.id} item={item} index={index}/>
                     )
                 })}
                

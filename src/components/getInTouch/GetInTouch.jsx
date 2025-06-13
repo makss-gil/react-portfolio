@@ -1,20 +1,32 @@
 import "./getInTouch.css"
 import React from 'react'
 import { FaPaperPlane } from "react-icons/fa6";
+import { slideInVariants } from "../../utils/animation";
+import { motion } from "motion/react"
 
 const GetInTouch = () => {
   return (
     <div className="get-in-touch sub-section">
         <div className="container flex-center">
             <div className="contact-card">
-                <div className="title">
+                <motion.div className="title"
+                    variants={slideInVariants("left", 0.6, 90, false)}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: false, amount: 0.5 }}
+                >
                     <h4>LAT'S TALK</h4>
                     <h3>ABOUT YOUR</h3>
                     <h2>NEXT PROJECT</h2>
-                </div>
-                <a href="" className="get-in-touch-link inner-info-link">Contact me 
+                </motion.div>
+                <motion.a href="" className="get-in-touch-link inner-info-link"
+                    variants={slideInVariants("right", 0.6, 80, false)}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: false, amount: 0.5 }}
+                >Contact me 
                     <FaPaperPlane />
-                </a>
+                </motion.a>
             </div>
         </div>
     </div>  

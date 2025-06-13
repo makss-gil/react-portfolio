@@ -19,7 +19,7 @@ const contactData = [
         id: 3,
         icon: FaLocationDot,
         title: "Official Address",
-        value: "wrwefwefwef",
+        value: "25 Sobornosti Ave., Lutsk, Volyn region, Ukraine",
         link: "#"
     }
 ]

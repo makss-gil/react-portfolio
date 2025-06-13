@@ -12,7 +12,7 @@ const currentYear = new Date().getFullYear()
     <footer className="footer">
       <div className="container footer-wrapper">
         <div className="about-group">
-          <h2>DevHilit</h2>
+          <h2>G I L</h2>
           <p>Frontend Developer</p>
           <a href="#about">About me</a>
         </div>
@@ -23,7 +23,7 @@ const currentYear = new Date().getFullYear()
         <FooterLinkGroup title="Follow" links={followLinks} isSocial={true}/>
         
       </div>
-      <p className="footer-copyright">© <span className="year">{currentYear}</span> by Hilitukha Maksym (DevHilit). All rights reserved.</p>
+      <p className="footer-copyright">© <span className="year">{currentYear}</span> by Hilitukha Maksym "GIL". All rights reserved.</p>
     </footer>
   )
 }

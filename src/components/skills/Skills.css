@@ -27,7 +27,8 @@
     margin-bottom: 50px;
 }
 
-.education{
+.education,
+.skills-info > div{
     min-width: 320px;
     width: 32%;
 }

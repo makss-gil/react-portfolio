@@ -2,12 +2,10 @@ import Nav from "../nav/Nav";
 import "./Header.css";
 import { FaXing } from "react-icons/fa";
 import { FaBarsStaggered } from "react-icons/fa6";
-import { useState } from "react";
-import { RemoveScroll } from 'react-remove-scroll';
+import { useState, useEffect } from "react";
 
-const Header = () => {
-
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const Header = ({isMenuOpen, setIsMenuOpen} ) => {
+const [isSticky, setIsSticky] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -17,14 +15,25 @@ const Header = () => {
     setIsMenuOpen(false)
   }
 
+  const handleScroll = () => {
+    setIsSticky(window.scrollY > 0)
+  }
+  useEffect(() => {
+    
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
+  
+
   return (
-    <header className="header">
+    <header className={isSticky ? "header sticky" : "header"}>
       <div className="container">
         <div className="header-wrapper">
-          <a href="" className="logo"> DevHilit </a>
-          <RemoveScroll enabled={isMenuOpen}>
+          <a href="" className="logo"> G I L </a>
+          {/* <RemoveScroll enabled={isMenuOpen}> */}
             <Nav isMenuOpen={isMenuOpen} handleMenuClick={handleMenuClick}/>
-          </RemoveScroll>
+          {/* </RemoveScroll> */}
           <div className="nav-menu-btn" onClick={toggleMenu}>
             {isMenuOpen ? <FaXing /> : <FaBarsStaggered />}
           </div>

@@ -1,27 +1,19 @@
 const workExperience = [
     {
         id: 1,
-        title: "Sr. Graphic Designer",
-        employmentType: "Part Time | Office",
-        period: "2020-2021",
-        company: "Avada Theme",
-        description: "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites"
+        title: "Frontend Development",
+        employmentType: "Part Time | Hybrid",
+        period: "2024",
+        company: "VNU named Lesya Ukrainka",
+        description: "Built a functional To-Do app with React and Tailwind CSS. Implemented Firebase for user authentication and real-time data storage. Practiced component architecture, state management, and interactive UI development."
     },
     {
         id: 2,
-        title: "Sr. Graphic Designer",
-        employmentType: "Part Time | Office",
-        period: "2020-2021",
-        company: "Avada Theme",
-        description: "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites"
-    },
-    {
-        id: 3,
-        title: "Sr. Graphic Designer",
-        employmentType: "Part Time | Office",
-        period: "2020-2021",
-        company: "Avada Theme",
-        description: "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites"
+        title: "Graphic Design Assistant",
+        employmentType: "Part Time | Hybrid",
+        period: "2022–2023",
+        company: "VNU named Lesya Ukrainka",
+        description: "Completed a practical internship in the marketing department. Developed social media visuals, print materials, and event branding using Adobe Photoshop and Illustrator. Gained hands-on experience in digital design and brand consistency."
     }
 ]
 

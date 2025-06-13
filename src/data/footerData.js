@@ -12,32 +12,32 @@ export const infoLinks = [
 export const followLinks = [
     {
         id: 1, 
-        href: "https://facebook.com",
+        href: "https://www.facebook.com/maksim.gilituha/",
         icon: FaFacebookSquare
     },
     {
         id: 2, 
-        href: "https://instagram.com",
+        href: "https://www.instagram.com/makss_gil/",
         icon: FaInstagramSquare
     },
     {
         id: 3, 
-        href: "https://github.com",
+        href: "https://github.com/makss-gil",
         icon: FaGithubSquare
     },
     {
         id: 4, 
-        href: "https://telegram.org",
+        href: "https://t.me/makssgil",
         icon: FaTelegram
     },
     {
         id: 5, 
-        href: "https://linkedin.com",
+        href: "https://www.linkedin.com/in/maksym-hilitukha-931506359/",
         icon: FaLinkedin
     },
     {
         id: 6, 
-        href: "https://twitter.com",
+        href: "https://x.com/makss_gil",
         icon: FaTwitterSquare
     }
 ];

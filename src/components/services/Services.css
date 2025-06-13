@@ -11,6 +11,7 @@
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: stretch;
     
 }
 
@@ -24,6 +25,7 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 265px;
+    min-height: 350px;
     width: 100%;
     cursor: pointer;
 }
@@ -133,3 +135,22 @@
     gap: 5px;
 }
 /* ===== end SERVICES section ===== */
+
+@media (max-width: 1070px) {
+    
+}
+
+@media (max-width: 768px) {
+    .services-list .service-card {
+         /* по 1 в ряд */
+        max-width: 265px;
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 450px) {
+    .services-list .service-card {
+        padding: 30px;
+        min-height: auto;
+    }
+}
