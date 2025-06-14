@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import { motion } from "motion/react";
 import { slideInVariants } from "../../utils/animation";
-import { profList } from "../../data/proflist";
+import { profList } from "../../data/profList";
 
 
 
