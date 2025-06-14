@@ -1,4 +1,4 @@
-import "./getInTouch.css"
+import "./GetInTouch.css"
 import React from 'react'
 import { FaPaperPlane } from "react-icons/fa6";
 import { slideInVariants } from "../../utils/animation";
