@@ -1,7 +1,7 @@
 import ServiceItem from "./ServiceItem";
 import "./Services.css";
 import services from "../../data/services";
-import SectionTitle from "../sectionTitle/sectionTitle";
+import SectionTitle from '../sectionTitle/SectionTitle'
 import { slideInVariants } from "../../utils/animation";
 import { motion } from "motion/react"
 
