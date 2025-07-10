@@ -19,7 +19,7 @@ const GetInTouch = () => {
                     <h3>ABOUT YOUR</h3>
                     <h2>NEXT PROJECT</h2>
                 </motion.div>
-                <motion.a href="" className="get-in-touch-link inner-info-link"
+                <motion.a href="#contact" className="get-in-touch-link inner-info-link"
                     variants={slideInVariants("right", 0.6, 80, false)}
                     initial="hidden"
                     whileInView="visible"

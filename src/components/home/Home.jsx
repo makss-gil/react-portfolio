@@ -38,13 +38,7 @@ const Home = () => {
                     ))}
                 </div>
                 <div className="home-info">
-                    <motion.h1
-                        initial="hidden"
-                        whileInView="visible"
-                        custom={0}
-                        viewport={{once: false, amount: 0.5}}
-                        variants={slideInVariants("left", 0.5, 100, true)}>
-                            Hi, I am Gil</motion.h1>
+                    <h1>Hi, I am Gil</h1>
                     <motion.h3
                         initial="hidden"
                         whileInView="visible"
@@ -77,7 +71,7 @@ const Home = () => {
                         whileInView="visible"
                         viewport={{once: false, amount: 0}}
                         variants={slideInVariants("right", 0.9, 100, false)}>
-                <img src={homeImg} alt="man" />
+                <img src={homeImg} loading="lazy" alt="man" />
                 </motion.div>
             </div>
             <a href="#about" className="scroll-down">

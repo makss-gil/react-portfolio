@@ -126,3 +126,10 @@
     }
 }
 
+.static-title {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    font-size: 3rem; /* приклад */
+    font-weight: 700;
+  }

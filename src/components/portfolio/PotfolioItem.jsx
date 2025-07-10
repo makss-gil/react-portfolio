@@ -26,10 +26,11 @@ const PotfolioItem = ({ item, index }) => {
             <div className="img-card" onClick={openModal}>
                 <div className="overlay"></div>
                 <div className="info">
-                    <h3>{item.title}</h3>
-                    <span>{item.category}</span>
+                    <h3 className="portfolio-title">{item.title}</h3>
+                    <span className="portfolio-category">{item.category}</span>
                 </div>
-                <img src={item.imgSrc} alt={item.title} />
+                <img className="portfolio-blur-img" src={item.imgSrc} alt={item.title} />
+
             </div>
             {isModalOpen && <PortfolioModal item={item} isModalOpen={isModalOpen} closeModal={closeModal} />}
         </motion.div>

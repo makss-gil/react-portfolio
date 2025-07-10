@@ -11,6 +11,20 @@ const PortfolioModal = ({ item, isModalOpen, closeModal }) => {
           <h3>{item.title}</h3>
           <img src={item.imgSrc} alt={item.title} />
           <p>{item.description}</p>
+          {item.link && (
+            <div className="portfolio-link">
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Live Project ↗
+              </a>
+            </div>
+          )}
+
+
+
         </div>
       </div>
     </RemoveScroll>

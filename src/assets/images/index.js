@@ -1,21 +1,18 @@
-import mainImg from "./main-img.png"
-import aboutImg from "./IMG_8319.JPG"
-import homeImg from "./img_hill.png"
-import portfolio1 from "./portfolio-1.jpg"
+import aboutImg from "./IMG_hil_8319.webp"
+import homeImg from "./img_hill3.webp"
+import portfolio1 from "./weather-app-gil.webp"
 import portfolio2 from "./portfolio-2.jpg"
 import portfolio3 from "./portfolio-3.jpg"
 import portfolio4 from "./portfolio-4.jpg"
 import portfolio5 from "./portfolio-5.jpg"
 import portfolio6 from "./portfolio-6.jpg"
-import client1 from "./client1.jpg"
-import client2 from "./client2.jpg"
-import client3 from "./client3.jpg"
-import projectComingSoon from "./projectcomingsoon.png"
-
+import client1 from "./client1.webp"
+import client2 from "./client1.webp"
+import client3 from "./client1.webp"
+import projectComingSoon from "./projectcomingsoon.webp"
 
 
 export{
-    mainImg,
     aboutImg,
     homeImg,
     portfolio1,

@@ -20,7 +20,7 @@ const Aboutme = () => {
             viewport={{ once: false, amount: 0 }}
             variants={slideInVariants("left", 0.9, 100, false)}
           >
-            <img src={aboutImg} alt="about" />
+            <img src={aboutImg} loading="lazy" alt="about" />
           </motion.div>
           <div className="about-info">
             <div className="description">

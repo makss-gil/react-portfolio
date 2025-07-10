@@ -3,14 +3,15 @@ import { portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6,
 const portfolioData = [
     {
         id: 1,
-        title: "To-Do List",
-        category: "with Firebase",
-        imgSrc: projectComingSoon,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        title: "Weather App",
+        category: "with openweathermap.org",
+        imgSrc: portfolio1,
+        description: "Weather App built with Next.js, TypeScript, Tailwind CSS, and Jotai for state management. It integrates the OpenWeatherMap API to provide real-time weather data with geolocation support, responsive design, and dynamic city search with autocomplete suggestions. Axios is used for API requests, and the project is deployed on VERCEL.",
+        link: "https://weather-app-gil.vercel.app/"
     },
     {
         id: 2,
-        title: "Weather App",
+        title: "",
         category: "",
         imgSrc: projectComingSoon,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
