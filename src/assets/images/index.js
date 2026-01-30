@@ -1,6 +1,7 @@
 import aboutImg from "./IMG_hil_8319.webp"
 import homeImg from "./img_hill3.webp"
 import portfolio1 from "./weather-app-gil.webp"
+import portfolio7 from "./project-mgt-gil.webp"
 import portfolio2 from "./portfolio-2.jpg"
 import portfolio3 from "./portfolio-3.jpg"
 import portfolio4 from "./portfolio-4.jpg"
