@@ -22,6 +22,7 @@ export{
     portfolio4,
     portfolio5,
     portfolio6,
+    portfolio7,
     client1,
     client2,
     client3,
